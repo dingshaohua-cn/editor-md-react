@@ -1,0 +1,43 @@
+.md_editor{
+    height: 100%;
+    .toolbar{
+        display: flex;
+        .item{
+            height: 26px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 6px;
+        }
+        .item img{
+            width: 16px;
+            height: 16px;
+            border-radius: 2px;
+        }
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+    .content{
+        border: rgba(0, 0, 0, 0.1) solid 1px;
+        height: calc(100% - 26px);
+        min-height: 100px;
+        display: flex;
+        textarea{
+            border: none;
+            outline: none;
+            padding: 10px;
+            font-size: 16px;
+            resize: none;
+            border-right: rgba(0, 0, 0, 0.1) solid 1px;
+        }
+        .render_rtf{
+            border-left: rgba(0, 0, 0, 0.1) solid 1px;
+            padding: 0 10px;
+        }
+        >*{
+            width: 50%;
+            
+        }
+    }
+   
+}
