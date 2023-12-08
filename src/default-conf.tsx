@@ -1,3 +1,4 @@
+import React from 'react';
 import CBtn from "./custom-components/c-btn";
 import bold from "./img/bold.svg";
 import italic from "./img/italic.svg";

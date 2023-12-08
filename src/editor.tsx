@@ -3,7 +3,7 @@ import MarkdownIt from "markdown-it";
 import RenderRtf from "./render-rtf";
 import defaultConf from "./default-conf";
 import { textSelect } from "./helper";
-import { useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 
 
 const md = MarkdownIt({

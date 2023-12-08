@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { insertStr, toHump, setSelectionRange } from "./helper";
 import addTag from "./action-handler/add-tag";
 import cssStyle from "./action-handler/css-style";
