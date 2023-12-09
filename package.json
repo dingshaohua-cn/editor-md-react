@@ -1,6 +1,6 @@
 {
   "name": "editor-md-react",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "基于markdown-it的react编辑器",
   "main": "lib/index.js",
   "scripts": {

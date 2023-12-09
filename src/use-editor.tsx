@@ -66,6 +66,7 @@ export default function Editor(props) {
   const [content, setContent] = useState(props.content);
   const [selection, setSelection] = useState<any>({});
   const [uploadUrl, setUploadUrl] = useState<any>(props.uploadUrl);
+  const [toolbar, setToolbar] = useState(props.toolbar);
 
   /**
    * 设置文本域选中区域
@@ -115,6 +116,9 @@ export default function Editor(props) {
   };
 
   return {
+    ...props,
+    toolbar,
+    setToolbar,
     uploadUrl,
     content,
     selection,
